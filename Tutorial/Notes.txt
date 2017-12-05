@@ -1,0 +1,9 @@
+﻿Router:
+App_Start/RouteConfig.cs routes.MapRoute
+URL: /Controller/ActionName/Parameters
+
+Controller:
+ActiveDirecotry Name: @User.Identity.Name
+ActionResult <-> View, data(controller -> view): ViewBag
+
+https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/adding-a-model
